@@ -49,6 +49,10 @@ namespace ClickShow.UI
                 _settings.MouseButtonSettings[key].Color = defaultSetting.MouseButtonSettings[key].Color;
             }
 
+            _settings.ParticleRed = 255;
+            _settings.ParticleGreen = 255;
+            _settings.ParticleBlue = 255;
+
             _settings.HoverDotSize = defaultSetting.HoverDotSize;
             _settings.HoverDotFill = defaultSetting.HoverDotFill;
         }

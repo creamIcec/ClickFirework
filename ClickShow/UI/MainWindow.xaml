@@ -60,7 +60,13 @@
         </StackPanel>
         <StackPanel Grid.Column="1" VerticalAlignment="Center">
             <TextBlock Margin="10" HorizontalAlignment="Center">
-                <Hyperlink NavigateUri="https://github.com/cuiliang/clickshow" RequestNavigate="HyperlinkOpenHomepage_OnRequestNavigate">反馈与更新 / Homepage</Hyperlink>                
+                <Label Content="原作者: cuiliang(Github)"/>
+                <LineBreak></LineBreak>
+                <Label Content="烟花版作者: Iriseplos(Github)" HorizontalAlignment="Left"/>
+                <LineBreak></LineBreak>
+                <Hyperlink NavigateUri="https://github.com/cuiliang/clickshow" RequestNavigate="HyperlinkOpenHomepage_OnRequestNavigate">反馈与更新 / Homepage(原版)</Hyperlink>                
+                <LineBreak></LineBreak>
+                <Hyperlink NavigateUri="https://github.com/creamIcec/clickshow" RequestNavigate="HyperlinkOpenForkpage_OnRequestNavigate">反馈与更新 / Homepage(烟花版)</Hyperlink>                
                 <LineBreak></LineBreak>
                 <TextBlock Name="LblNewVersion" Foreground="OrangeRed" FontWeight="Bold" Visibility="Collapsed" Text="已有新版本!"/>
             </TextBlock>
@@ -86,6 +92,8 @@
                     Click="BtnClose_OnClick"
                     Content="退出(_X)" />
             </Grid>
+            
+
 
 
         </StackPanel>

@@ -32,6 +32,10 @@ namespace ClickShow.Settings
         private double _indicatorSize = 150;
         private double _hoverDotSize = 60;
         private string _hoverDotFill = "#60FFFF5A";
+        private byte _particleRed = 255;
+        private byte _particleBlue = 255;
+        private byte _particleGreen = 255;
+        private int _particleSize = 10;
 
         /// <summary>
         /// 开启波纹特效
@@ -106,6 +110,59 @@ namespace ClickShow.Settings
                 OnPropertyChanged();
             }
         }
+
+        /// <summary>
+        /// 烟花颜色值: 红
+        /// </summary>
+        public byte ParticleRed
+        {
+            get => _particleRed;
+            set
+            {
+                _particleRed = value;
+                OnPropertyChanged();
+            }
+        }
+
+        /// <summary>
+        /// 烟花颜色值: 绿
+        /// </summary>
+        public byte ParticleGreen
+        {
+            get => _particleGreen;
+            set
+            {
+                _particleGreen = value;
+                OnPropertyChanged();
+            }
+        }
+
+        /// <summary>
+        /// 烟花颜色值: 蓝
+        /// </summary>
+        public byte ParticleBlue
+        {
+            get => _particleBlue;
+            set
+            {
+                _particleBlue = value;
+                OnPropertyChanged();
+            }
+        }
+
+        /// <summary>
+        /// 烟花粒子大小
+        /// </summary>
+        public int ParticleSize
+        {
+            get => _particleSize;
+            set
+            {
+                _particleSize = value;
+                OnPropertyChanged();
+            }
+        }
+
 
         public event PropertyChangedEventHandler PropertyChanged;
 

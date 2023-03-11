@@ -99,12 +99,12 @@ namespace ClickShow
             _mouseHook.MouseUp += MouseHookOnMouseUp;
             _mouseHook.Start();
 
-            // 检查版本更新
+            /*// 检查版本更新
             Task.Run(async () =>
             {
                 await Task.Delay(1000 * 10 );
                 CheckUpdate();
-            });
+            });*/
             
         }
 
@@ -242,7 +242,25 @@ namespace ClickShow
             }
         }
 
+        private void HyperlinkOpenForkpage_OnRequestNavigate(object sender, RequestNavigateEventArgs e)
+        {
+            try
+            {
+                Process.Start("https://github.com/creamIcec/clickshow");
+            }
+            catch
+            {
+                MessageBox.Show("无法打开网址：https://github.com/creamIcec/clickshow");
+            }
+        }
+
         #endregion
+
+        #region 烟花颜色最大值
+
+        
+        #endregion
+
 
         #region 鼠标位置浮标
 
@@ -324,17 +342,16 @@ namespace ClickShow
             if (indicator != null)
             {
                 indicator.Prepare();
-
                 KillDeadWindow();
                 return indicator;
             }
             else
             {
-                indicator = new ClickIndicator(AppSetting.IndicatorSize)
+                indicator = new ClickIndicator(AppSetting.IndicatorSize, AppSetting.ParticleRed, AppSetting.ParticleGreen, AppSetting.ParticleBlue, AppSetting.ParticleSize)
                 {
                     WindowStartupLocation = WindowStartupLocation.Manual,
                     Topmost = true,
-                    ShowActivated = false
+                    ShowActivated = false,
                 };
                 _clickIndicators.Add(indicator);
 

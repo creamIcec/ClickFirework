@@ -6,8 +6,8 @@
     xmlns:local="clr-namespace:ClickShow"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="点击查看器"
-    Width="150"
-    Height="150"
+    Width="200"
+    Height="200"
     AllowsTransparency="True"
     Background="Transparent"
     ShowInTaskbar="False"
@@ -24,5 +24,82 @@
             VerticalAlignment="Center"
             Stroke="Blue"
             StrokeThickness="3" />
+        <Canvas Name="canvas">
+            <Path x:Name="p0" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c0" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p1" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c1" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p2" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c2" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p3" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c3" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p4" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c4" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p5" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c5" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p6" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c6" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p7" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c7" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p8" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c8" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p9" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c9" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p10" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c10" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p11" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c11" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p12" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c12" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p13" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c13" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+            <Path x:Name="p14" StrokeThickness="5" >
+                <Path.Data>
+                    <EllipseGeometry x:Name="c14" Center="0,0" RadiusX="2" RadiusY="2"></EllipseGeometry>
+                </Path.Data>
+            </Path>
+        </Canvas>
     </Grid>
 </Window>
