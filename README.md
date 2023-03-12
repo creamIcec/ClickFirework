@@ -5,10 +5,14 @@ Base repository: <a href="https://github.com/cuiliang/ClickShow">https://github.
 
 Hope you love it❤️~
 
+(Switch to "Firework" branch to retrieve the code.)
+
 一个ClickShow的修改版本，可以实现鼠标点击出现类似烟花粒子的效果。
 原作者仓库链接: <a href="https://github.com/cuiliang/ClickShow">https://github.com/cuiliang/ClickShow</a>
 
 希望大家喜欢❤️
+
+(切换到"Firework"分支查看代码)
 
 Showcase(Click anywhere on the screen with left/right/middle button of mouse)/效果展示(在任意位置点击鼠标左/中/右键)
 
