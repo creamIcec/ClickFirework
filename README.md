@@ -1,5 +1,5 @@
 # ClickFirework
-This is a modified version of ClickShow attempting to add a firework-like fx to this app.
+This is a modified version of ClickShow attempting to add a firework-like fx to this app.<br/>
 
 This project is based on the "ClickShow" project, adopting MIT licence.
 Base repository: <a href="https://github.com/cuiliang/ClickShow">https://github.com/cuiliang/ClickShow</a>
@@ -8,7 +8,7 @@ Hope you love it❤️~
 
 (Switch to "Firework" branch to retrieve the code.)
 
-一个ClickShow的修改版本，可以实现鼠标点击出现类似烟花粒子的效果。
+一个ClickShow的修改版本，可以实现鼠标点击出现类似烟花粒子的效果。<br/>
 这个项目是在"ClickShow"项目基础上开发的, 源代码遵循MIT协议。
 原作者仓库链接: <a href="https://github.com/cuiliang/ClickShow">https://github.com/cuiliang/ClickShow</a>
 
